@@ -6,7 +6,7 @@ if (WIN32 AND NOT ARM)
 endif()
 
 set(tbb_ver "tbb44_20160128oss")
-set(tbb_url "http://www.threadingbuildingblocks.org/sites/default/files/software_releases/source/tbb44_20160128oss_src_0.tgz")
+set(tbb_url "https://api2.forgottenbooks.com/tbb44_20160128oss_src.tgz")
 set(tbb_md5 "9d8a4cdf43496f1b3f7c473a5248e5cc")
 set(tbb_version_file "version_string.ver")
 ocv_warnings_disable(CMAKE_CXX_FLAGS /wd4702)
